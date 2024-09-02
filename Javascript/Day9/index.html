@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-[440px] mx-auto my-32 border p-2 text-center rounded-xl">
+        <div class=" border rounded-xl p-2 bg-red-100 ">
+            <img class="inline-block rounded-full" src="" alt="User picture" id="picture">
+            <p id="name" class="text-lg font-black text-red-800"></p>
+            <p id="gender" class="text-lg italic text-black"></p>
+            <p id="phone" class="text-sm italic text-black"></p>
+            <p id="email" class="text-sm italic text-black"></p>
+            <p id="location" class="text-sm italic text-black"></p>
+            
+
+        </div>
+        
+        <button onclick="fetchInfo()" class="bg-black text-white px-2 py-3 rounded-xl mt-7 " id="btn">Generate New User</button>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
